@@ -1,1 +1,1 @@
-web: gunicorn -k uvicorn.workers.UvicornWorker fpl-api.fpl-api.main:app
+web: gunicorn -k uvicorn.workers.UvicornWorker fpl-api.main:app
